@@ -1,0 +1,27 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ */
+
+package com.mycompany.minutesconversio;
+
+/**
+ *
+ * @author 25002460
+ */
+ import java.util.Scanner;
+public class MinutesConversio {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+       
+        System.out.println(" Enter the number of minutes ");
+        int minutes = scanner.nextInt();
+        
+        int hours = minutes/60;
+        double days = minutes/1440.0;
+        
+         System.out.println(hours +"hours");
+         System.out.println(days +"days");
+   
+    }
+}
